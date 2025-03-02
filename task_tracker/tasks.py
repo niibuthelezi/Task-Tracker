@@ -17,7 +17,7 @@ def add_task(task):
    
     write_data(records)
     
-    message = f"Task added: {task}"
+    message = f"Task successfully added: ( {key} )"
 
     print_header()
     print(message)
