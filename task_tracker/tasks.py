@@ -26,6 +26,7 @@ def add_task(task):
 def update_task(task_id, task):
 
     records = get_records()
+    print(records)
     update_record = records[str(task_id)]
     update_record["description"] = task
     update_record["updatedAt"] = datetime.now(timezone.utc).isoformat()
@@ -44,9 +45,9 @@ def list_tasks():
     print_header()
     for k, v in records.items():
 
-        # print(f"{k}: , {v["description"].ljust(20)} {v["status"].ljust(8)} {v["createdAt"].ljust(30)} {v["updatedAt"].ljust(30)}")
+        print(f"{k}: {v["description"].ljust(30)} {v["status"].ljust(8)} {v["createdAt"].ljust(30)} {v["updatedAt"].ljust(30)}")
 
-        print(f"{k}: , {v["description"]} {v["status"]} {v["createdAt"]} {v["updatedAt"]}")
+        # print(f"{k}: , {v["description"]} {v["status"]} {v["createdAt"]} {v["updatedAt"]}")
 
 def delete_task(task):
     pass

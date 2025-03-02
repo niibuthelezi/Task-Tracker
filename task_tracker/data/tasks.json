@@ -1,26 +1,20 @@
 {
     "1": {
-        "description": "Enemies no be God",
+        "description": "Don't Prepare for school",
         "status": "todo",
-        "createdAt": "2025-03-02T12:01:46.812529+00:00",
-        "updatedAt": "2025-03-02T17:22:46.646413+00:00"
+        "createdAt": "2025-03-02T19:38:27.128186+00:00",
+        "updatedAt": "2025-03-02T19:41:38.428588+00:00"
     },
     "2": {
-        "description": "Life goes on",
+        "description": "Prepare breakfast",
         "status": "todo",
-        "createdAt": "2025-03-02T12:03:34.805924+00:00",
-        "updatedAt": "2025-03-02T16:58:12.833567+00:00"
+        "createdAt": "2025-03-02T19:47:27.841351+00:00",
+        "updatedAt": "2025-03-02T19:47:27.841351+00:00"
     },
     "3": {
-        "description": "eno be ez",
+        "description": "Do homework",
         "status": "todo",
-        "createdAt": "2025-03-02T17:16:20.821893+00:00",
-        "updatedAt": "2025-03-02T17:17:43.150456+00:00"
-    },
-    "4": {
-        "description": "Python is so useful",
-        "status": "todo",
-        "createdAt": "2025-03-02T18:06:16.284947+00:00",
-        "updatedAt": "2025-03-02T18:06:16.284947+00:00"
+        "createdAt": "2025-03-02T19:47:38.050434+00:00",
+        "updatedAt": "2025-03-02T19:47:38.050434+00:00"
     }
 }

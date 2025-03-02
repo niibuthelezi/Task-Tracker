@@ -1,11 +1,10 @@
 import argparse
 
-from tasks import ( add_task, update_task, delete_task, 
-                   mark_in_progress, mark_done , list_tasks)
+from tasks import add_task, update_task, delete_task, mark_in_progress, mark_done , list_tasks
 
 
 def main():
-    parser = argparse.ArgumentParser(prog="task-cli", description="A simple task manager CLI")
+    parser = argparse.ArgumentParser(prog="task_cli", description="A simple task manager CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     # Add subcommand
